@@ -1,4 +1,5 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
+import { client } from '../../api/client';
 
 const initialState = [
   { id: '0', name: 'Tianna Jenkins' },
